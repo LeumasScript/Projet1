@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+header{
+    position: relative;
+    margin: 35px 0;
+    }
+
+header div, 
+header div li,
+header div li nav {
+    display: inline-block;
+    }
+
+header .a{
+    /* float: left; */
+    margin-left: 80px;
+    margin-right: 50px;
+    text-align: center;
+    }
+header .a1{
+    margin-left:12.5em ;
+
+}
+header .a1 li a{
+    color: rgba(100, 98, 98, 0.918);
+    font-weight: bold;
+    }
+header .a1 li a:hover{
+    color: rgb(0, 0, 0);
+    }
+
+header .a1 li{
+    margin: 8px ;
+    }
+
+
+header .a1 form{
+    margin-left:100px ;
+    position: relative;
+    }
+    
+header .a1 .nav0{
+        position: absolute;
+        top: 0%;
+        right: 110%;
+        }
+header input{
+    padding: 7px;
+    border: none;
+    }
+
+header input[type="email"]{
+    position: relative;
+    width: 160px;
+    padding:8px 40px 8px 20px;
+    border-radius: 10px;
+    border: 1px solid  rgb(185, 184, 184);
+    box-shadow:0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s; }
+
+header input[type="email"]:focus{
+        width: 200px;
+    }
+header .nav2{
+    position: absolute;
+    right: -20%;
+    }
+
+header input[type="submit"]{
+    border-radius: 8px;
+    background-color:rgb(94, 134, 255) ;
+    padding: 10px;
+    color: honeydew;
+    margin-top: -1px;
+    box-shadow:0px 0px 1px 1px rgba(129, 128, 128, 0.3);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    }
+
+header input[type="email"]:focus{
+    box-shadow:0 0px 1px 1px dodgerblue;
+    border: 1px solid  dodgerblue;
+    }
+
+header input[type="email"]:focus + i{
+    color: dodgerblue;
+    }
+
+header input[type="submit"]:active{
+    transform: scale(0.9);
+    }
+/* ......................fin header........... */
+
+/* ............................section1.......... */
+
+.sect1{
+    margin-left: 10em;
+    }
+
+.sect1 div{
+    position: relative;
+    display: inline-block;
+    }
+
+.sect1 .div1 img{
+    width: 600px;
+    height: auto;
+    }
+
+.sect1 .div1 li:nth-child(2) {
+    margin: 20px 10px;
+    }
+.sect1 .div1 li:nth-child(2) a{
+    color: rgb(2, 129, 255);
+    }
+
+.sect1 .div1 nav h1{
+    font-size: 36px;
+    margin: 0 10px;  
+    } 
+
+.sect1 .div1 nav p{
+    color: rgb(148, 147, 147);
+    margin: 25px 10px;
+    font-size: 14px;
+    margin-bottom: 35px;
+    font-family:'century gothic','Trebuchet MS', sans-serif;
+    }
+
+.sect1 .div1 nav h2 a{
+    color: floralwhite;
+    border-radius: 10px;
+    padding: 16px 17px;
+    background-color: dodgerblue;
+    font-size: 14px;
+    margin: 0 10px ;
+    width: 80px;
+    transform:scale(1) ;
+    }
+
+.sect1 .div1 nav h2:active{
+    transform:scale(0.98) ;
+    }
+
+
+
+.sect1 .div2  li{
+    position: relative;
+    padding: 13px 10px 26px 25px;
+    }
+
+.sect1 .div2 li img{
+    border-radius: 5px;
+    width: 140px;
+    height: 140px;
+    }
+
+.sect1 .div2 li nav{ 
+    position: absolute;
+    top: 43%;
+    left: 173%;
+    transform: translate(-50%,-50%);
+    text-align: initial;
+    }
+
+.sect1 .div2 li nav h1{
+    padding: 10px 0 17px;
+    width: 250px;
+    color: rgb(83, 83, 83);
+    font-size: 16px;
+    }
+
+.sect1 .div2 li nav h3{
+    font-size: 14px;
+    }
+
+.sect1 .div2 li nav a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding:0 0 2px 0;
+    border-bottom: 1px solid  rgb(0, 0, 0);
+    transition: 0.3s;
+    }
+
+.sect1 .div2 li nav a:hover{
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    } 
+
+/* ....................fin section1 ............. */
+
+/* .........................section 2..................... */
+
+.sect2{
+    /* position: relative; */
+    margin-top: 3em;
+    margin-left: 11em;
+    }
+
+.sect2 div h1{
+    font-size: 28px;
+    padding: 50px 0 0 0;
+    }
+
+.sect2 li{
+    display: inline-block;
+    padding: 20px 30px;
+    margin-left: -1.8em;
+    }
+
+.sect2 li img{
+    border-radius: 5px;
+    width: 315px;
+    height: 270px;
+    }
+
+.sect2 li nav{ 
+    margin-top: 18px;
+    }
+
+.sect2  li nav h1{
+    padding: 15px 0 15px 0; 
+    width: 280px;
+    font-size: 17px;
+    color: rgb(83, 83, 83);
+    }
+
+.sect2  li nav h3{
+    font-size: 14px;
+    }
+
+.sect2 li nav a{
+    color:  rgb(0, 0, 0);
+    font-size: 16px;
+    padding:0 0 2px 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 0.3s;
+    }
+
+.sect2 li nav a:hover{
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    }
+
+/* .....................fin section2................ */
+.sect3{
+        margin-top: 5em;
+        margin-left: 10em;
+    }
+
+.sect3 .div1{
+    position: relative;
+}
+
+.sect3 .div2{
+    position: absolute;
+}
+
+.sect3 div{
+    display: inline-block;
+}
+
+.sect3 div li img{
+    border-radius: 5px;
+    width: 140px;
+    height: 140px;
+    }
+
+.sect3 .div1  li{
+        position: relative;
+        padding: 13px 10px 26px 0;
+        }
+    
+    
+.sect3 .div1 li nav{ 
+        position: absolute;
+        top: 43%;
+        left: 5%;
+        transform: translate(60%,-50%);
+        text-align: initial;
+        }
+    
+.sect3 .div1 li nav h1{
+        padding: 10px 0 17px;
+        width: 250px;
+        color: rgb(83, 83, 83);
+        font-size: 16px;
+        }
+
+.sect3 .div1 li nav h3{
+        font-size: 14px;
+        }
+    
+.sect3 .div1 li nav a{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        padding:0 0 2px 0;
+        border-bottom: 1px solid  rgb(0, 0, 0);
+        transition: 0.3s;
+        }
+    
+.sect3 .div2 li nav a:hover{
+        color: dodgerblue;
+        border-bottom: 2px solid dodgerblue;
+        } 
+
+.sect3 .div2{
+    background-color: rgb(28, 141, 255);
+    border: 4px solid rgb(3, 100, 204);
+    border-radius: 10px;
+    margin-left: 30em;
+    width: 400px;
+    height: 340px;
+    text-align: center;
+    padding-top: 180px;
+    }
+.h1{
+    font-size: 36px;
+}
+
+.sect3 .div2 li h1{
+    color: floralwhite;
+    padding-bottom: 15px;
+    font-size: 25px;
+    }
+
+.sect3 .div2 li a{
+    color: rgb(253, 253, 253);
+    border-bottom:  1px solid white;
+    transition: 0.4s;
+    }
+
+.sect3 .div2 li a:hover{
+    border-bottom:  2px solid rgb(255, 174, 0);
+    }
